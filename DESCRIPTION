@@ -1,0 +1,22 @@
+Package: acresCOA
+Type: Package
+Title: Acreage data from the United States Census of Agriculture
+Version: 0.2.0
+Authors@R: c(
+    person("N J", "Pinder", , "nicholas.pinder@des.sc.gov", role = c("aut")),
+    person("C A", "Pellett", , "c.alex.pellett@gmail.com", role = c("aut", "cre")),
+    person("State of South Carolina Department of Environmental Services", role = "fnd")
+  )
+Maintainer: Nicholas Pinder <nicholas.pinder@des.sc.gov>
+Description: Data from the United States Census of Agriculture.
+    Includes total and irrigated acreage at the state and county level.
+License: file LICENSE
+Depends: 
+    R (>= 4.5)
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+Encoding: UTF-8
+LazyData: true
